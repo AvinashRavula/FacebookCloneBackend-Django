@@ -1,0 +1,9 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Thu 2018-06-21 16:01:03 IST; 2min 53s ago
+ Main PID: 9644 (mysqld)
+   CGroup: /system.slice/mysql.service
+           └─9644 /usr/sbin/mysqld
+
+Jun 21 16:01:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Jun 21 16:01:03 ubuntu systemd[1]: Started MySQL Community Server.
