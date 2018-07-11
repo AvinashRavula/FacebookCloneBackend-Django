@@ -7,7 +7,7 @@ django = "*"
 gunicorn = "*"
 django-heroku = "*"
 requests = "*"
-rest-framework = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.6"
