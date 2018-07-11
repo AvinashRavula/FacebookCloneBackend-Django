@@ -8,6 +8,8 @@ gunicorn = "*"
 django-heroku = "*"
 requests = "*"
 djangorestframework = "*"
+mysql-python = "*"
+mysqlclient = "*"
 
 [requires]
 python_version = "3.6"
