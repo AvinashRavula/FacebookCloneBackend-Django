@@ -24,7 +24,8 @@ SECRET_KEY = '=0_p!&85854@-3+)nc1!fcuol4le(_#_ht(cq&*fp0r1+e8@+k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost', '192.168.0.4', '192.168.0.5', '192.168.0.2','192.168.0.3', '192.168.0.6']
+# ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost', '192.168.0.4', '192.168.0.5', '192.168.0.2','192.168.0.3', '192.168.0.6']
+ALLOWED_HOSTS = []
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
