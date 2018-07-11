@@ -132,3 +132,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploaded_media')
 MEDIA_URL = '/media/'
+STATIC_ROOT = "/var/www/example.com/static/"
