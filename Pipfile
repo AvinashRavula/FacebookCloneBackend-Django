@@ -8,7 +8,7 @@ gunicorn = "*"
 django-heroku = "*"
 requests = "*"
 djangorestframework = "*"
-mysqlclient = "*"
+djangorestframework-jwt = "*"
 
 [requires]
 python_version = "3.6"
