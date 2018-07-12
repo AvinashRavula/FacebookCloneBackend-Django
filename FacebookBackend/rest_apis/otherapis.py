@@ -69,6 +69,14 @@ class CommentViewSet(ModelViewSet):
     serializer_class = CommentSerializer
     queryset = Comment.objects.all()
 
+    def create(self, request, *args, **kwargs):
+        req_data = request.data
+        serializer = self.serializer_class(request.data)
+        if serializer.is_valid():
+            serializer.save(comment_by = self.request.user.id)
+            return JsonResponse(serializer.data, status=status.HTTP_200_OK)
+        return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 class ReplyViewSet(ModelViewSet):
     serializer_class = ReplySerializer
