@@ -16,8 +16,9 @@ class UserSearchAPI(ListAPIView):
     serializer_class = UserProfileSerializer
 
     def get_queryset(self):
-        return User.objects.filter(Q(last_name__icontains=self.request.GET['query']) | 
+        users = User.objects.filter(Q(last_name__icontains=self.request.GET['query']) | 
                                Q(first_name__icontains=self.request.GET['query']))
+        return users.exclude(id=self.request.user.id)
 
 
 # version 2
