@@ -6,10 +6,18 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
+from django.db.models import Q
 
 from FacebookBackend.serializers.UserSerializer import UserSerializer
 from FacebookBackend.serializers.all_serializers import UserProfileSerializer
 from FacebookBackend.views.UserForm import UserForm
+
+class UserSearchAPI(ListAPIView):
+    serializer_class = UserProfileSerializer
+
+    def get_queryset(self):
+        return User.objects.filter(Q(last_name__icontains=self.request.POST['query']) | 
+                               Q(first_name__icontains=self.request.POST['query']))
 
 
 # version 2

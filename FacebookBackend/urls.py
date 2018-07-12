@@ -9,7 +9,8 @@ from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token, verify
 from FacebookBackend.rest_apis.ForgotPasswordAPI import get_user_id, change_password
 from FacebookBackend.rest_apis.PostAPI import PostViewSet, like_a_post, unlike_a_post
 from FacebookBackend.rest_apis.ProfileAPI import ProfileList, ProfileDetail, ProfileViewSet
-from FacebookBackend.rest_apis.UserAPI import UserList, duplicate_email_address, UserDetail, UserViewSet, UserProfileAPI
+from FacebookBackend.rest_apis.UserAPI import UserList, duplicate_email_address, UserDetail, UserViewSet, UserProfileAPI, \
+    UserSearchAPI
 from FacebookBackend.rest_apis.ProfileAPI import duplicate_phonenum
 from FacebookBackend.rest_apis.FileUploadAPI import *
 from FacebookBackend.rest_apis.otherapis import LinkedAccountViewSet, LanguageViewSet, GenderViewSet, CommentViewSet, \
@@ -47,6 +48,7 @@ urlpatterns = [
     path('friends/requests/', FriendRequestsAPI.as_view(), name='friend_requests'),
     path('peopleyoumayknow/', PeopleYouMayKnowAPI.as_view(), name='people_you_may_know'),
     path('my_profile/', UserProfileAPI.as_view(), name='user_profile'),
+    path('search_users/', UserSearchAPI.as_view(), name='user_search'),
 
     url(r'^api-jwt-token-auth/', obtain_jwt_token),
     url(r'^api-jwt-token-refresh/', refresh_jwt_token),
