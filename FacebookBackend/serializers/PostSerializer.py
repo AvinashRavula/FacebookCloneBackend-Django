@@ -18,8 +18,9 @@ class PostSerializer(ModelSerializer):
     last_name = serializers.CharField(source='user.last_name', read_only=True)
     attachments = AttachmentLinksSerializer(read_only=True, many=True, source="attachmentlinks_set")
     comments = CommentSerializer(read_only=True, many=True, source="comment_set")
+    profile_picture = serializers.CharField(source='user.profile.profilepicture.image',read_only=True)
 
     class Meta:
         model = Post
         fields = ['id', 'captions', 'tagged_ids', 'likes_ids', 'created_time',
-                  'user', 'first_name', 'last_name', 'comments', 'attachments']
+                  'user', 'first_name', 'last_name', 'comments', 'attachments', 'profile_picture']
