@@ -26,13 +26,13 @@ class GenderSerializer(ModelSerializer):
 class CommentSerializer(ModelSerializer):
     class Meta:
         model = Comment
-        fields = ['id', 'comment_text', 'post', 'like_ids']
+        fields = ['id', 'comment_text', 'post', 'like_ids',  'comment_by']
 
 
 class ReplySerializer(ModelSerializer):
     class Meta:
         model = Reply
-        fields = ['id', 'reply_text', 'like_ids', 'reply_ids', 'comment']
+        fields = ['id', 'reply_text', 'like_ids', 'reply_ids', 'comment', 'replied_by']
 
 
 class FriendsSerializer(ModelSerializer):

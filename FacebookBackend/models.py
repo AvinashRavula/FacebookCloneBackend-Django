@@ -82,6 +82,7 @@ class Comment(models.Model):
     created_time = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    comment_by = models.ForeignKey(User, on_delete=models.CASCADE)
 
 
 class Reply(models.Model):
@@ -89,6 +90,7 @@ class Reply(models.Model):
     like_ids = models.CharField(max_length=256, null=True, blank=True)
     # contains the Reply table id's because a reply can have one/more replies
     reply_ids = models.CharField(max_length=256, null=True, blank=True)
+    replied_by = models.ForeignKey(User,on_delete=models.CASCADE)
     created_time = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
     comment = models.ForeignKey(Comment, on_delete=models.CASCADE)
