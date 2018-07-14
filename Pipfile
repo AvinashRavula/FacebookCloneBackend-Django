@@ -9,6 +9,7 @@ django-heroku = "*"
 requests = "*"
 djangorestframework = "*"
 djangorestframework-jwt = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.6"
