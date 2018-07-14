@@ -72,7 +72,7 @@ class CommentViewSet(ModelViewSet):
     def create(self, request, *args, **kwargs):
         req_data = request.data
         req_data['comment_by'] = self.request.user.id
-        serializer = self.serializer_class(data=request.data)
+        serializer = self.serializer_class(data=req_data)
         if serializer.is_valid():
             serializer.save()
             return JsonResponse(serializer.data, status=status.HTTP_200_OK)
