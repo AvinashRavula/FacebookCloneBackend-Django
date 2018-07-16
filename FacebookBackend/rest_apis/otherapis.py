@@ -34,6 +34,15 @@ class FriendsViewSet(ModelViewSet):
     # def get_queryset(self):
     #     return Friends.objects.filter(Q(user=self.request.user.id, status=1) | Q(friend=self.request.user.id, status=1))
 
+    def create(self, request, *args, **kwargs):
+        req_data = request.data
+        req_data['user'] = self.request.user.id
+        serializer = self.serializer_class(data=req_data)
+        if serializer.is_valid():
+            serializer.save()
+            return JsonResponse(serializer.data, status=status.HTTP_200_OK)
+        return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
     def update(self, request, *args, **kwargs):
         friends = get_object_or_404(Friends, **kwargs)
         req_data = request.data
