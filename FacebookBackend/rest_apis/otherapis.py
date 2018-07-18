@@ -6,6 +6,7 @@ from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from FacebookBackend.models import Languages, Gender, LinkedAccount, Comment, Reply, Friends
+from FacebookBackend.serializers.ProfileSerializer import ProfileSerializer
 from FacebookBackend.serializers.UserSerializer import UserSerializer
 from FacebookBackend.serializers.all_serializers import LinkedAccountSerializer, LanguageSerializer, GenderSerializer, \
     FriendsSerializer, CommentSerializer, ReplySerializer

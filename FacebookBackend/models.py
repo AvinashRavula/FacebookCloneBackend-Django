@@ -19,12 +19,12 @@ class Profile(models.Model):
 
 
 class ProfilePicture(models.Model):
-    image = models.FileField(max_length=256, null=True, blank=True)
+    image = models.CharField(max_length=256, null=True, blank=True)
     profile = models.OneToOneField(Profile, on_delete=models.CASCADE, unique=True)
 
 
 class CoverPicture(models.Model):
-    image = models.FileField(max_length=256, null=True, blank=True)
+    image = models.CharField(max_length=256, null=True, blank=True)
     profile = models.OneToOneField(Profile, on_delete=models.CASCADE, unique=True)
 
 
@@ -61,7 +61,7 @@ class Post(models.Model):
 #     post = models.ForeignKey(Post, on_delete=models.CASCADE)
 
 class AttachmentLinks(models.Model):
-    file = models.FileField(max_length=256)
+    file = models.CharField(max_length=256)
     type = models.CharField(max_length=10)
     created_time = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)

@@ -2,9 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ad46e4-48c5-4df1-8f09-6e729e93c324" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FacebookClone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FacebookClone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookBackend/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookBackend/migrations/0002_auto_20180712_1949.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookBackend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookBackend/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FacebookBackend/rest_apis/otherapis.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookBackend/rest_apis/otherapis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/0ccd8c4c-787b-420b-a8e9-3207c37fae90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/1469d4d8-3651-4c68-9c09-e78301602cf6.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/1483adf5-3a01-4904-8637-2f247466f596.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/2014-07-29-066.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/2014-07-29-068.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/2014-07-29-079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/2014-07-29-094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/20597104_764280143734040_6550666789694489467_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/24129793_2417086118516853_3283388878186521239_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/2446c620-5a95-49ea-8928-12b47301c81b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/335c5b11-fcd3-46eb-93c3-5eea55606745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/33ecf245-d46e-4590-8508-f830d8e9399f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/38416b72-d88c-48e8-8c74-8df7d5050249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/38416b72-d88c-48e8-8c74-8df7d5050249_WW5gTvg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/393e8f43-7491-44e0-bf35-2ebaab7a5752.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/3baba8e3-e016-4929-adf2-be6ddf853850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/49b799c6-3bbf-400c-aede-09db1d7d6a13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/4f51b069-2450-494f-9127-05ad1f2b4bdb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/5745e81a-8519-4749-827d-2929817991f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/5bf768e3-2cee-49cb-b83c-1e79d6470060.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/5c0f8b39-e7de-4360-af81-02a0d07ca628.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/60da1fda-473d-461d-9126-b68d801e37cb.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/63372732-4f38-4434-bebb-9bce24cd2ded.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/636f0497-be43-451a-9c90-5116e54ace71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/66240524-d79f-4846-ad74-9f47bb244637.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/681fd4e5-0739-4cc7-8cca-e6cdf3ec6a2e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/6dc50fd2-483c-4450-9bc0-e4c301c1e5b4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/6f114b9e-6d7c-490b-853a-31a0d0ca8e4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/871c46d3-be0b-45d2-9d4b-86788c52bd3e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/8b0005a3-ab0a-42ae-84a0-4457bf205189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/8f242147-e2d4-4881-a54a-4bdf27861174.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/8f574bdb-1654-4108-85c3-1e842888fd01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/9e501455-7ee8-4c99-8396-11dc4d653b36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/BeautyPlus_20160428230306_fast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/BeautyPlus_20160428230306_fast_hsriIwR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/DSCN0379.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/DSCN0402.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/DSCN0403.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/DSCN0403_Z5CvDaw.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/IMG_20150815_164910.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/IMG_20150815_164910_KT5KJZb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/Yuva_part1_convert-video-online.com.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/a0ca06c5-3d91-4688-9447-2513630cd12e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/a1939954-a24f-4085-8916-6e9ef25d0aa0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/a2b881db-7d4b-4584-adcd-0b601f7ad2d4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/a6e930d0-aeee-46ba-8c64-c7f57f78d07a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/a8f11e81-39e6-437c-891b-c44b2c16c537.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/a94c2e07-7de5-441c-988c-eaf6c83e70aa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/adf9ebd8-fa3f-401b-b9c1-4248a4dc36e8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/b7e9e3ee-3926-4260-9065-82d7d06e7fbd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/ba0d3490-7701-4af7-acc3-8a2dded7d2bd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/c879f591-ae9a-419d-a809-a634af6e3b2b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/ca90a3f5-259a-4cb1-b912-cd8335400070.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/cc848eb0-de45-434b-a658-35fb0abb51e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/d26de1a9-cd19-4600-9979-90c9954c6302.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/d564f9e9-9f9d-4025-9e00-6a3d808256be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/e177b3b2-2cb9-4290-a461-cab7fbcc8609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/e5281d76-c0aa-41e3-a0a5-4645050116ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/e8ccd272-c463-4bd8-9c86-007d0b062d6f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/eb7d5d49-5faf-4914-b5db-f0830488f52b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/eff010ad-b488-46fb-97b0-93d6c2f35fac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/f61e43a8-e9c1-4cea-ac7e-508a8c0ce54a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/f61e43a8-e9c1-4cea-ac7e-508a8c0ce54a_Tgwy3K2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/f61e43a8-e9c1-4cea-ac7e-508a8c0ce54a_naOEkXg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/faa6003c-144c-41fc-93bc-6c44f5fa4672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/fc2c7967-1bac-46af-8cff-0c963c809ae1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/ff993fbf-8282-43fb-8ab6-cd1ce1547aa9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/image123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/image_iICVT5A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploaded_media/myfile.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +95,8 @@
       <file leaf-file-name="PostAPI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/PostAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
                 <element signature="e#0#82#0" expanded="true" />
               </folding>
@@ -30,8 +107,8 @@
       <file leaf-file-name="all_serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/all_serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="615">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -39,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otherapis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="otherapis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/otherapis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="305">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="37" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -51,20 +128,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploadAPI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/FileUploadAPI.py">
+      <file leaf-file-name="UserSerializer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="210">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FacebookBackend/urls.py">
+      <file leaf-file-name="ProfileSerializer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/ProfileSerializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="150">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +155,8 @@
       <file leaf-file-name="UserAPI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/UserAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="105">
+              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -81,7 +164,7 @@
       <file leaf-file-name="ProfileAPI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/ProfileAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="195">
               <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
@@ -93,8 +176,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="101" column="91" selection-start-line="101" selection-start-column="91" selection-end-line="101" selection-end-column="91" />
+            <state relative-caret-position="243">
+              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -102,8 +185,8 @@
       <file leaf-file-name="PostSerializer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/PostSerializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="185">
+              <caret line="20" column="102" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="102" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -132,6 +215,7 @@
       <find>snippet</find>
       <find>Post</find>
       <find>relate</find>
+      <find>FileFie</find>
     </findStrings>
     <replaceStrings>
       <replace>profile</replace>
@@ -155,7 +239,6 @@
         <option value="$PROJECT_DIR$/FacebookBackend/rest_apis/FileUploadAPI.py" />
         <option value="$PROJECT_DIR$/../env/lib/python3.5/site-packages/rest_framework_jwt/views.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/rest_apis/NewsFeedAPI.py" />
-        <option value="$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/serializers/ProfileSerializer.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/serializers/FileUploadSerializer.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/serializers/PostSerializer.py" />
@@ -166,9 +249,10 @@
         <option value="$PROJECT_DIR$/FacebookBackend/rest_apis/UserAPI.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/rest_apis/ProfileAPI.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/rest_apis/PostAPI.py" />
-        <option value="$PROJECT_DIR$/FacebookBackend/models.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/serializers/all_serializers.py" />
+        <option value="$PROJECT_DIR$/FacebookBackend/models.py" />
         <option value="$PROJECT_DIR$/FacebookBackend/rest_apis/otherapis.py" />
+        <option value="$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py" />
       </list>
     </option>
   </component>
@@ -182,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,11 +306,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Harshit/DownloadManager-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -288,7 +373,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32682925" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32520324" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -401,9 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploaded_media/image123.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uploaded_media/image123.jpg" />
     <entry file="file://$PROJECT_DIR$/FacebookBackend/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -415,9 +498,7 @@
     <entry file="file://$PROJECT_DIR$/uploaded_media/DSCN0403_L1aX98n.JPG" />
     <entry file="file://$PROJECT_DIR$/uploaded_media/DSCN0403_PHxCtSK.JPG" />
     <entry file="file://$PROJECT_DIR$/uploaded_media/DSCN0403_Y1bfWeo.JPG" />
-    <entry file="file://$PROJECT_DIR$/uploaded_media/IMG_20150815_164910.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uploaded_media/IMG_20150815_164910.jpg" />
     <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/ForgotPasswordAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -451,20 +532,6 @@
     <entry file="file://$PROJECT_DIR$/../env/lib/python3.5/site-packages/rest_framework/request.py" />
     <entry file="file://$PROJECT_DIR$/../env/lib/python3.5/site-packages/rest_framework/views.py" />
     <entry file="file://$PROJECT_DIR$/../env/lib/python3.5/site-packages/rest_framework/viewsets.py" />
-    <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/ProfileSerializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/FileUploadSerializer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -506,27 +573,10 @@
     <entry file="file://$PROJECT_DIR$/FacebookBackend/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/PostSerializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookBackend/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="101" column="91" selection-start-line="101" selection-start-column="91" selection-end-line="101" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/all_serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="615">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -535,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/ProfileAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="195">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
@@ -543,27 +593,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/UserAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/PostAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
             <element signature="e#0#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FacebookBackend/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/UserAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FacebookBackend/rest_apis/otherapis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="305">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/ProfileSerializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/PostSerializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="102" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FacebookBackend/serializers/UserSerializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
