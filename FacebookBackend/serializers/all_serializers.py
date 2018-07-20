@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
 from FacebookBackend.models import CoverPicture, Languages, Gender, Comment, Reply, Friends, LinkedAccount
@@ -35,15 +36,32 @@ class ReplySerializer(ModelSerializer):
         fields = ['id', 'reply_text', 'like_ids', 'reply_ids', 'comment', 'replied_by']
 
 
-class FriendsSerializer(ModelSerializer):
-    class Meta:
-        model = Friends
-        fields = ['id', 'user', 'friend', 'status']
-
-
 class UserProfileSerializer(ModelSerializer):
     profile = ProfileSerializer(read_only=True)
 
     class Meta:
         model = User
         fields = ['id', 'first_name', 'last_name', 'email', 'profile']
+
+
+class FriendsSerializer(ModelSerializer):
+    class Meta:
+        model = Friends
+        fields = ['id', 'user', 'friend', 'status']
+
+
+class FriendsDetailSerializer(ModelSerializer):
+    user = UserProfileSerializer()
+    friend = UserProfileSerializer()
+
+    class Meta:
+        model = Friends
+        fields = ['id', 'user', 'friend', 'status']
+
+
+class FriendRequestsSerializer(ModelSerializer):
+    user = UserProfileSerializer()
+
+    class Meta:
+        model = Friends
+        fields = ['id', 'user']

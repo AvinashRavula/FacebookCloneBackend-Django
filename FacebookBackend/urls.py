@@ -14,7 +14,7 @@ from FacebookBackend.rest_apis.UserAPI import UserList, duplicate_email_address,
 from FacebookBackend.rest_apis.ProfileAPI import duplicate_phonenum
 from FacebookBackend.rest_apis.FileUploadAPI import *
 from FacebookBackend.rest_apis.otherapis import LinkedAccountViewSet, LanguageViewSet, GenderViewSet, CommentViewSet, \
-    ReplyViewSet, FriendsViewSet, FriendRequestsAPI, PeopleYouMayKnowAPI
+    ReplyViewSet, FriendsViewSet, FriendRequestsAPI, PeopleYouMayKnowAPI, MyFriendsAPI
 
 router = routers.DefaultRouter()
 router.register('dps', ProfilePictureViewSet, 'dps')
@@ -47,6 +47,7 @@ urlpatterns = [
     path('posts/<int:pk>/unlike', unlike_a_post, name="unlike_a_post"),
     path('friends/requests/', FriendRequestsAPI.as_view(), name='friend_requests'),
     path('peopleyoumayknow/', PeopleYouMayKnowAPI.as_view(), name='people_you_may_know'),
+    path('my_friends/', MyFriendsAPI.as_view(), name='my_friends'),
     path('my_profile/', UserProfileAPI.as_view(), name='user_profile'),
     path('search_users/', UserSearchAPI.as_view(), name='user_search'),
 

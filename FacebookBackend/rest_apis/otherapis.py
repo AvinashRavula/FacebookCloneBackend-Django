@@ -9,7 +9,7 @@ from FacebookBackend.models import Languages, Gender, LinkedAccount, Comment, Re
 from FacebookBackend.serializers.ProfileSerializer import ProfileSerializer
 from FacebookBackend.serializers.UserSerializer import UserSerializer
 from FacebookBackend.serializers.all_serializers import LinkedAccountSerializer, LanguageSerializer, GenderSerializer, \
-    FriendsSerializer, CommentSerializer, ReplySerializer
+    FriendsSerializer, CommentSerializer, ReplySerializer, FriendsDetailSerializer, FriendRequestsSerializer
 from django.db.models import Q
 
 
@@ -32,9 +32,6 @@ class FriendsViewSet(ModelViewSet):
     serializer_class = FriendsSerializer
     queryset = Friends.objects.all()
 
-    # def get_queryset(self):
-    #     return Friends.objects.filter(Q(user=self.request.user.id, status=1) | Q(friend=self.request.user.id, status=1))
-
     def create(self, request, *args, **kwargs):
         req_data = request.data
         req_data['user'] = self.request.user.id
@@ -47,7 +44,7 @@ class FriendsViewSet(ModelViewSet):
     def update(self, request, *args, **kwargs):
         friends = get_object_or_404(Friends, **kwargs)
         req_data = request.data
-        req_data['user'] = self.request.user.id
+        req_data['user'] = friends.user.id
         req_data['friend'] = friends.friend.id
         serializer = self.serializer_class(friends, data=req_data)
         if serializer.is_valid():
@@ -56,8 +53,16 @@ class FriendsViewSet(ModelViewSet):
         return Response(serializer.errors, status.HTTP_400_BAD_REQUEST)
 
 
+class MyFriendsAPI(ListAPIView):
+    serializer_class = FriendsDetailSerializer
+
+    def get_queryset(self):
+        friends = Friends.objects.all().filter(Q(friend=self.request.user.id) | Q(user=self.request.user.id))
+        return friends.exclude(status=0)
+
+
 class FriendRequestsAPI(ListAPIView):
-    serializer_class = FriendsSerializer
+    serializer_class = FriendRequestsSerializer
 
     def get_queryset(self):
         return Friends.objects.all().filter(friend=self.request.user.id, status=0)
