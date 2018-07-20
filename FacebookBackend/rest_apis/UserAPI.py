@@ -32,7 +32,7 @@ class UserProfileAPI(ListAPIView):
 # version 2
 class UserViewSet(ModelViewSet):
     queryset = User.objects.all()
-    serializer_class = UserSerializer
+    serializer_class = UserProfileSerializer
 
 
 # version 1
