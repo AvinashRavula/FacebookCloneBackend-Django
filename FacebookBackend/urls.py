@@ -7,7 +7,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token, verify_jwt_token
 
 from FacebookBackend.rest_apis.ForgotPasswordAPI import get_user_id, change_password
-from FacebookBackend.rest_apis.PostAPI import PostViewSet, like_a_post, unlike_a_post
+from FacebookBackend.rest_apis.PostAPI import PostViewSet, like_a_post, unlike_a_post, NewsFeedAPI
 from FacebookBackend.rest_apis.ProfileAPI import ProfileList, ProfileDetail, ProfileViewSet
 from FacebookBackend.rest_apis.UserAPI import UserList, duplicate_email_address, UserDetail, UserViewSet, UserProfileAPI, \
     UserSearchAPI
@@ -50,6 +50,7 @@ urlpatterns = [
     path('my_friends/', MyFriendsAPI.as_view(), name='my_friends'),
     path('my_profile/', UserProfileAPI.as_view(), name='user_profile'),
     path('search_users/', UserSearchAPI.as_view(), name='user_search'),
+    path('newsfeed/', NewsFeedAPI.as_view(), name='news_feed'),
 
     url(r'^api-jwt-token-auth/', obtain_jwt_token),
     url(r'^api-jwt-token-refresh/', refresh_jwt_token),

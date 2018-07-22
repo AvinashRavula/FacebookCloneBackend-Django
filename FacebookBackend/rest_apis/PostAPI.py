@@ -1,14 +1,15 @@
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
+from django.db.models import Q
 from django.http import JsonResponse
 from rest_framework import status
 from rest_framework.decorators import api_view
-from rest_framework.generics import get_object_or_404
+from rest_framework.generics import get_object_or_404, ListAPIView
 from rest_framework.permissions import *
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
-from FacebookBackend.models import Post
+from FacebookBackend.models import Post, Friends
 from FacebookBackend.serializers.PostSerializer import PostSerializer
 
 from rest_framework.pagination import PageNumberPagination
@@ -17,7 +18,7 @@ from rest_framework.pagination import PageNumberPagination
 class PostSetPagination(PageNumberPagination):
     page_size = 10
     page_size_query_param = 'page_size'
-    max_page_size = 100
+    max_page_size = 200
 
 
 class PostViewSet(ModelViewSet):
@@ -95,3 +96,17 @@ def unlike_a_post(request, pk):
                 return JsonResponse(serializer.data, status=status.HTTP_200_OK)
             return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         return Response(status=status.HTTP_400_BAD_REQUEST)
+
+
+class NewsFeedAPI(ListAPIView):
+    serializer_class = PostSerializer
+    pagination_class = PostSetPagination
+
+    def get_queryset(self):
+        friends = Friends.objects.all().filter(Q(friend=self.request.user.id) | Q(user=self.request.user.id))
+        friends = friends.exclude(status=0)
+        friend_list = [friend.user.id for friend in friends]
+        friend_list2 = [friend.friend.id for friend in friends]
+        friend_list.extend(friend_list2)
+        friend_list = list(set(friend_list))
+        return Post.objects.filter(user__in=friend_list).order_by('-last_modified')
