@@ -108,5 +108,6 @@ class NewsFeedAPI(ListAPIView):
         friend_list = [friend.user.id for friend in friends]
         friend_list2 = [friend.friend.id for friend in friends]
         friend_list.extend(friend_list2)
+        friend_list.__add__(self.request.user.id)
         friend_list = list(set(friend_list))
         return Post.objects.filter(user__in=friend_list).order_by('-last_modified')
